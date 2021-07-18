@@ -66,4 +66,25 @@ if (gender == "Male") {
 
 
     }
+    console.log(dayName)
+}
+
+if (gender == "female") {
+    switch (day) {
+        case 0:
+            dayName = "Akosua";
+        case 1:
+            dayName = "Adwoa";
+        case 2:
+            dayName = "Abenaa"
+        case 3:
+            dayName = "Akua"
+        case 4:
+            dayName = "Yaa"
+        case 5:
+            dayName = "Afua"
+        case 6:
+            dayName = "Ama"
+
+    }
 }
