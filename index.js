@@ -1,5 +1,7 @@
-var day = (((20 / 4) - 2 * 20 - 1) + ((21 / 4) + ((26 * (07 + 1) / 10)) + 17) % 7);
-console.log(day)
+var day = (((cc / 4) - 2 * cc - 1) + ((5 * yy / 4) + ((26 * (mm + 1) / 10)) + dd) % 7);
+// the day might returned as a decimal so we need to round it off
+if (day! == 2)
+    console.log(day)
     // recieve inputs
 function receiveInputs() {
     const date = document.getElementById("start").value;
@@ -18,3 +20,4 @@ function receiveInputs() {
     }
 
 }
+//
