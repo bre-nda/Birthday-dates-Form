@@ -7,4 +7,14 @@ function receiveInputs() {
     const male = document.getElementById("Male").value;
     console.log(date + female + male)
 
+
+    // check if all the fields above hava been entered
+    if (date == "") {
+        alert("field required")
+        if (female == "")
+            alert("field required")
+        if (male == "")
+            alert("field required")
+    }
+    // 
 }
