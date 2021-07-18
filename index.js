@@ -16,17 +16,27 @@ function receiveInputs() {
     // check if all the fields above hava been entered
     if (dd == "") {
         alert("field required")
-        if (mm == "")
-            alert("field required")
-        if (yr == "")
-            alert("field required")
-        if (female == "")
-            alert("field required")
-        if (male == "")
-            alert("field required")
+        return false;
     }
-
+    if (mm == "") {
+        alert("field required")
+        return required;
+    }
+    if (yr == "") {
+        alert("field required")
+        return required;
+    }
+    if (female == "") {
+        alert("field required")
+        return required;
+    }
+    if (male == "") {
+        alert("field required")
+        return required;
+    }
 }
+
+
 //validating the inputs
 if (dd <= 0 || dd > 31) { var error = "is in correct" }
 if (mm <= 0 || mm > 12) { var error = "is in correct" }
