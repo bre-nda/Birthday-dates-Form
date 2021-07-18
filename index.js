@@ -16,5 +16,5 @@ function receiveInputs() {
         if (male == "")
             alert("field required")
     }
-    // 
+
 }
