@@ -1,8 +1,8 @@
 # AKAN NAME PROJECT
-#### This projet talks about the, {Date of current version}
-#### By **{List of contributors}**
+#### This projet talks about the Akan Name.
+#### By **Brenda Andeso**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+This project talks about the Akan Name where one is required to fill in the details of the of the birth date, month and year, the input the gender name.After that, depending on the day of the week they were born, they would get their Akan Name.
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
