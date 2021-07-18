@@ -4,15 +4,22 @@ if (day! == 2)
     console.log(day)
     // recieve inputs
 function receiveInputs() {
-    const date = document.getElementById("start").value;
+    const dd = document.getElementById("day").value;
+    const mm = document.getElementById("month").value;
+    const yr = document.getElementById("year").value;
     const female = document.getElementById("Female").value;
     const male = document.getElementById("Male").value;
-    console.log(date + female + male)
+    console.log(dd + mm + yr + male + female)
+
 
 
     // check if all the fields above hava been entered
-    if (date == "") {
+    if (dd == "") {
         alert("field required")
+        if (mm == "")
+            alert("field required")
+        if (yr == "")
+            alert("field required")
         if (female == "")
             alert("field required")
         if (male == "")
