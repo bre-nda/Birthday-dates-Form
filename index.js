@@ -45,3 +45,25 @@ if (yr > 2021) { var error = "is in correct" }
 if (error = "") {
     alert
 }
+
+if (gender == "Male") {
+    switch (day) {
+        case 0:
+            dayName = "Kwasi"
+        case 1:
+            dayName = "Kwaduo"
+        case 2:
+            dayName = "Kwadena"
+        case 3:
+            dayName = "Kwaku"
+        case 4:
+            dayName = "Yaw"
+        case 5:
+            dayName = "Kofi"
+        case 6:
+            dayName = "Kwame"
+
+
+
+    }
+}

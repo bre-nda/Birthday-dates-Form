@@ -14,7 +14,7 @@
 <body>
     <h1>Akan Name Form</h1>
     <div class="details">
-        <p>This form helps you know your Akan name when you put in the details below.<br>Below is a detailed descrption of what is required of you.</p>
+        <p>This form helps you know your Akan name depending on the day of the week you were born, when you put in the details below.<br>Below is a detailed descrption of what is required of you.</p>
         <ol>
             <li>Enter your birthdate.</li>
             <li>Choose yor gender.</li>
@@ -22,7 +22,7 @@
         </ol>
     </div>
     <div class="form">
-        <form class="form" onsubmit="return checkBlank(), checkDate(), calculateDay()">
+        <form class="form" id="#" onsubmit="return checkBlank(), checkDate(), calculateDay()">
             <p><strong>Please select your birth date</strong></p>
             <p>Day<input type="number" class="box" value="" id="day"></p>
             <p>Month<input type="number" class="box" value="" id="month"></p>
@@ -34,7 +34,7 @@
             <input type="radio" id="Male" name="gender" value="Male">
             <label for="Male">Male</label>
             <br>
-            <button onsubmit="" type="submit" id="submit">submit</button>
+            <input type="submit" id="submit" onsubmit="myFunction">
         </form>
     </div>
 
