@@ -1,7 +1,7 @@
 var day = (((cc / 4) - 2 * cc - 1) + ((5 * yy / 4) + ((26 * (mm + 1) / 10)) + dd) % 7);
 // the day might returned as a decimal so we need to round it off
-if (day! == 2)
-    console.log(day)
+
+console.log(day)
     // recieve inputs
 function receiveInputs() {
     const dd = document.getElementById("day").value;
@@ -27,4 +27,11 @@ function receiveInputs() {
     }
 
 }
-//
+//validating the inputs
+if (dd <= 0 || dd > 31) { var error = "is in correct" }
+if (mm <= 0 || mm > 12) { var error = "is in correct" }
+if (yr > 2021) { var error = "is in correct" }
+
+if (error = "") {
+    alert
+}
