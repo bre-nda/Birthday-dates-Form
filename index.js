@@ -87,4 +87,7 @@ if (gender == "female") {
             dayName = "Ama"
 
     }
+    console.log(dayName);
 }
+var name = "your gender name"
+document.getElementById("output").value
