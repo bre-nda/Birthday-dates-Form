@@ -1,5 +1,5 @@
 var day = (((cc / 4) - 2 * cc - 1) + ((5 * yy / 4) + ((26 * (mm + 1) / 10)) + dd) % 7);
-// the day might returned as a decimal so we need to round it off
+
 
 console.log(day)
     // recieve inputs
